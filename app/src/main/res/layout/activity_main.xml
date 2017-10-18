@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pichau.appmetadados.MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="403dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Selecione para Criar seu questionario"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Olá, Bem Vindo ao App de Levantamento de pesquisas"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        android:text="Deseja Iniciar a Criação de novos Questionarios?"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deseja Visualizar os questionarios disponíveis para resolução?"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="368dp"
+        android:layout_height="50dp"
+        android:text="Selecione para visualizar os questionarios disponíveis"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MetaDados"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+</android.support.constraint.ConstraintLayout>
