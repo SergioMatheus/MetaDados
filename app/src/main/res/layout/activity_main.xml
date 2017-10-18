@@ -8,71 +8,63 @@
     tools:context="com.example.pichau.appmetadados.MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Form Maker"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bem vindo ao Form Maker , seu propósito consiste na crianção e armazenamento de formulários"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:textSize="25dp" />
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="MetaDados"
-                android:textSize="40dp"
-                android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Olá, Bem Vindo ao Aplicativo de Levantamento de dados." />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Deseja Iniciar a Criação de novos Questionarios?" />
-
-            <Button
-                android:id="@+id/button3"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Selecione para visualizar os questionarios disponíveis"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="360dp" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Deseja Visualizar os questionarios disponíveis para resolução?"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="303dp" />
+            >
 
             <Button
                 android:id="@+id/button2"
                 style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Selecione para Criar seu questionario"
-                app:layout_constraintRight_toRightOf="parent"
-                tools:layout_editor_absoluteY="183dp" />
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16dp"
+                android:text="Criar questionário" />
 
+            <Button
+                android:id="@+id/button3"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="13dp"
+                android:text=" Questionários disponíveis" />
         </LinearLayout>
 
     </LinearLayout>
+
+</LinearLayout>
 
 
 </LinearLayout>
