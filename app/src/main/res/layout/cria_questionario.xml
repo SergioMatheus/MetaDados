@@ -6,28 +6,29 @@
 
     <TextView
         android:id="@+id/textView5"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Digite quantas perguntas seu questionário irá ter" />
+        android:text="@string/app_name" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
     <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:id="@+id/buttonAdicionar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pressione para obter os campos para por as perguntas" />
+        android:text="@string/adicionarBT" />
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/buttonVoltar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Digite aqui a sua pergunta"
-        android:visibility="invisible"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="invisible"/>
+        android:layout_gravity="right"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="15dp"
+        android:padding="15dp"
+        android:text="@string/salvar" />
 </LinearLayout>

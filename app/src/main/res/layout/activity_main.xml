@@ -10,9 +10,8 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:weightSum="1">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView3"
@@ -20,8 +19,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:gravity="center"
-            android:text="Form Maker"
-            android:textSize="40dp"
+            android:text="@string/app_name"
+            android:textSize="35dp"
             android:textStyle="bold" />
 
 
@@ -30,24 +29,33 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="Bem vindo ao Form Maker, seu propósito consiste na crianção e armazenamento de formulários"
+            android:text="@string/text1"
             android:textAlignment="center"
             android:textSize="25dp" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:src="@drawable/form1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:onClick="msg"
+            android:layout_height="200dp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/button2"
                 style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:text="Criar questionário"
-                android:textSize="15dp" />
+                android:text="@string/text3"
+                 />
 
             <Button
                 android:id="@+id/button3"
@@ -55,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text=" Questionários disponíveis"
+                android:text="@string/text2"
                 android:textSize="15dp" />
         </LinearLayout>
 
