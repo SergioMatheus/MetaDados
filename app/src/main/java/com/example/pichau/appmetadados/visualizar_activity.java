@@ -20,7 +20,8 @@ public class visualizar_activity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(visualizar_activity.this, form1.class);
+                //form1
+                Intent i = new Intent(visualizar_activity.this, GraphClass.class);
                 startActivity(i);
             }
         });

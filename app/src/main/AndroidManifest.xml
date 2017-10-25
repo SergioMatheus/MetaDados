@@ -17,12 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".CriaQuestionarios">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
         </activity>
         <activity android:name=".visualizar_activity" />
         <activity android:name=".form1"></activity>
+        <activity android:name=".GraphClass"></activity>
     </application>
 
 </manifest>
