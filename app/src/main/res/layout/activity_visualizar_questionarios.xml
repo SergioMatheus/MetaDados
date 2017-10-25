@@ -8,17 +8,10 @@
     tools:context="com.example.pichau.appmetadados.visualizar_activity">
 
 
-    <TextView
-        android:id="@+id/textView2"
-        android:gravity="center"
-        android:textSize="16dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/text4" />
-
     <ListView
         android:id="@+id/listaForms"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </ListView>
+
 </LinearLayout>

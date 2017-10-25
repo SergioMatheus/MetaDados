@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void msg (View v) {
-        Toast t = Toast.makeText(getApplicationContext(),"crie ou edite questionários",Toast.LENGTH_SHORT);
+        Toast t = Toast.makeText(getApplicationContext(),"Utilize ou responda questionários disponíveis",Toast.LENGTH_SHORT);
         t.show();
     }
 

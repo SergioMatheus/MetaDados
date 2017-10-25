@@ -21,7 +21,8 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".visualizar_activity"></activity>
+        <activity android:name=".visualizar_activity" />
+        <activity android:name=".form1"></activity>
     </application>
 
 </manifest>
