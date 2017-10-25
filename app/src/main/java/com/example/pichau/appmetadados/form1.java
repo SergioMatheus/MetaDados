@@ -13,6 +13,7 @@ public class form1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form1);
+        Toast.makeText(getApplicationContext(),"Ao clicar em alguma pergunta a mesma aparecerá",Toast.LENGTH_LONG).show();
         Strings st = new Strings();
         final String um = st.getPergunta1();
         final String dois = st.getPergunta2();
