@@ -5,13 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context="com.example.pichau.appmetadados.visualizar_activity">
 
 
-    <ListView
-        android:id="@+id/listaForms"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </ListView>
+    <!--<ListView-->
+        <!--android:id="@+id/listaForms"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+    <!--</ListView>-->
 
+
+    <Button
+        android:id="@+id/buttonModel1"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/text16" />
+
+    <Button
+        android:id="@+id/buttonModel2"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/text17" />
 </LinearLayout>

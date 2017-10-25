@@ -12,4 +12,6 @@ public class CriaQuestionarios extends AppCompatActivity{
         setContentView(R.layout.cria_questionario);
     }
 
+    // EM ANALISE
+
 }

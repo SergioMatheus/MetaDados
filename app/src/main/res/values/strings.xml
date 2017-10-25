@@ -5,9 +5,18 @@
     <string name="text1">Bem vindo ao Form Maker, seu propósito consiste utilização e armazenamento de informações dos formulários</string>
     <string name="text2">Questionários Disponíveis</string>
     <string name="text3">Escolher Modelo</string>
-    <string name="text4"></string>
-    <string name="text5"></string>
-    <string name="text6"></string>
-    <string name="text7"></string>
-    <!--<string name="text6"></string>-->
+    <string name="text4">1ª Pergunta</string>
+    <string name="text5">2ª Pergunta</string>
+    <string name="text6">3ª Pergunta</string>
+    <string name="text7">Esperado 1</string>
+    <string name="text8">Esperado 2</string>
+    <string name="text9">Esperado 3</string>
+    <string name="text10">Sexo:</string>
+    <string name="text11">Masculino</string>
+    <string name="text12">Feminino</string>
+    <string name="text13">5ª Pergunta</string>
+    <string name="text14">Esperado 5</string>
+    <string name="text15">Salvar</string>
+    <string name="text16">1º Modelo</string>
+    <string name="text17">2º Modelo</string>
 </resources>
