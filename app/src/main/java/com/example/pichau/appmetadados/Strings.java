@@ -2,9 +2,7 @@ package com.example.pichau.appmetadados;
 
 import java.util.List;
 
-/**
- * Created by Kien on 25/10/2017.
- */
+
 
 public class Strings {
 

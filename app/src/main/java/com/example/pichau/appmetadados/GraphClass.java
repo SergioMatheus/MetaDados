@@ -43,8 +43,8 @@ public class GraphClass extends AppCompatActivity {
 
         barChart = (BarChart) findViewById(R.id.bargraph);
 
-        Strings s1 = new Strings();
         ArrayList<BarEntry> barEntries = new ArrayList<>();
+        Strings s1 = new Strings();
         Integer qtd = s1.qtdList1();
         Integer[] resps1 = s1.listarR1();
 
