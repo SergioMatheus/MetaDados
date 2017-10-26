@@ -13,17 +13,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button botao = (Button)findViewById(R.id.button2);
-        Button botao2=(Button)findViewById(R.id.button3);
-        botao.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, CriaQuestionarios.class);
-                startActivity(i);
-            }
-        });
+        Button botao=(Button)findViewById(R.id.button3);
 
-        botao2.setOnClickListener(new View.OnClickListener() {
+        botao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, visualizar_activity.class);

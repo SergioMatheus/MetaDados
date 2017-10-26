@@ -16,8 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CriaQuestionarios">
-        </activity>
         <activity android:name=".visualizar_activity" />
         <activity android:name=".form1"></activity>
         <activity android:name=".GraphClass"></activity>

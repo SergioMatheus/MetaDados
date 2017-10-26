@@ -8,14 +8,6 @@
     android:padding="20dp"
     tools:context="com.example.pichau.appmetadados.visualizar_activity">
 
-
-    <!--<ListView-->
-        <!--android:id="@+id/listaForms"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent">-->
-    <!--</ListView>-->
-
-
     <Button
         android:id="@+id/buttonModel1"
         android:backgroundTint="@color/colorPrimary"
